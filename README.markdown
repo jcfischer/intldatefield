@@ -16,6 +16,9 @@ Wouldn't it be nice, if you could also enter dates in these formats?
 Now you can:
 
 * install the plugin
+
+    git submodule add git://github.com/jcfischer/intldatefield.git vendor/plugins/intldatefield
+    
 * add any DATE_FORMATS to your ''config/environment.rb''
 * if you have a textfield for a date column, it will just work
 
